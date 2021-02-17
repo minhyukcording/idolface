@@ -1,8 +1,10 @@
 body {
   font-family: sans-serif;
+  font-family: 'Jua', sans-serif;
   background-color: #ffffff;
+  box-sizing: border-box;
+  color: #35465d;
 }
-
 .file-upload {
   padding: 13% 5%;
   background-color: #ffffff;
@@ -149,7 +151,7 @@ body {
   font-family: NanumSquareR;
   line-height: 1.67;
   text-align: center;
-  color: #35465d;
+  color: #696969;
 }
 
 
@@ -157,7 +159,8 @@ body {
   font-family: NanumSquareR;
   line-height: 1.53;
   text-align: center;
-  color: #35465d;
+  color: #696969;
+  font-family: "Times New Roman", Times, serif;
 }
 .bar-container {
   height: 2.7rem;
@@ -196,7 +199,7 @@ body {
   border-radius: 10px;
   background-color: rgba(117, 204, 84, 1);
 }
-.man-box {
+.default-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -204,23 +207,6 @@ body {
   border-radius: 10px;
   width: 100%;
   background-color: rgba(27, 175, 234, 0.2);
-}
-.man-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(27, 175, 234, 1);
-}
-.actor-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(251, 176, 59, 0.2);
 }
 .actor-bar {
   position: absolute;
@@ -230,6 +216,17 @@ body {
   border-radius: 10px;
   background-color: rgba(251, 176, 59, 1);
 }
+
+.actor-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(49, 132, 155, 0.2);
+}
+
 .idol-box {
   position: absolute;
   top: 0;
@@ -247,6 +244,15 @@ body {
   border-radius: 10px;
   background-color: rgba(195, 140, 102, 1);
 }
+.labelTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
+}
 .percent-text {
   font-size: 1rem;
   color: #ffffff;
@@ -262,3 +268,5 @@ body {
 }
 .result-message {
     font-size: 2rem;
+    
+

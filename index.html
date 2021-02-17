@@ -81,7 +81,7 @@
         <section class="section">
             <h1 class="title">AI 인공지능 얼굴상 테스트</h1>
             <h2 class="subtitle">내 얼굴상은 과연 어떤상일까?</h2>
-            <h5 class="subtitle">(귀여운상,섹시한상,배우상,아이돌상)</h5>
+            <h5 class="subtitle">(귀여운상,섹시한상,외국인상,배우상,아이돌상)</h5>
             <h6 class="subtitle">제작도움 : 유투브 조코딩님</h6>
         </section>
         <script
@@ -226,7 +226,7 @@
                         resultMessage = '아이돌의 꿈을 가져봐도 되는 상';
                         break;
                     default:
-                        resultMessage = '';
+                        resultMessage = '이목구비가 뚜렷한 상';
                 }
                 $('.result-message').html(resultMessage);
                 for (let i = 0; i < maxPredictions; i++) {
@@ -258,7 +258,7 @@
                             labelTitle = '아이돌상';
                             break;
                         default:
-                            labelTitle = '알수없음';
+                            labelTitle = '외국인상';
                     }
                     var label =
                         "<div class='animal-label d-flex align-items-center'>" +
